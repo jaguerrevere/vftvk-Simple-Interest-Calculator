@@ -5,11 +5,24 @@
     </head>
     <body>
         <h1>Simple Interest Calculator</h1>
-
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
-        No. of Years <input type="number"  id="years">  <br/>
-        Interest : <span id="result"></span><br>
+            <table>
+                <tr>
+                    <td>Amount</td>
+                    <td><input type="number"  id="principal"></td>
+                </tr>
+                <tr>
+                    <td>Rate</td>
+                    <td><input type="number"  id="rate"></td>
+                </tr>
+                <tr>
+                    <td>No. of Years</td>
+                    <td><input type="number"  id="years"></td>
+                </tr>
+                <tr>
+                    <td>Interest:</td>
+                    <td><span id="result"></span></td>
+                </tr>
+            </table>
 
         <button onclick="compute()">Compute</button>
     </body>
