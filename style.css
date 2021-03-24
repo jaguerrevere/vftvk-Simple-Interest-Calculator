@@ -1,13 +1,46 @@
 body {
     background-color: black;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+h1{
+    color: grey;
+    font-size: 48px ;
 }
 div {
     background-color: white;
     border-radius: 10%;
+    display: inline-block;
+    padding: 10px;
+    padding-right: 25px;
+}
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 form {
-    padding-left: 50px;
+    padding-left: 100px;
 }
-h1{
-    color:grey;
+label {
+    font-size: 20px;
+}
+input {
+    font-size: 16px;
+}
+.slider {
+    width: 175px;
+}
+output {
+    font-size: 20px;
+}
+select {
+    font-size: 16px;
+}
+p {
+    padding-left: 100px;
+}
+.copyright {
+    padding-left: 10px;
 }
