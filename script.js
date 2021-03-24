@@ -5,7 +5,7 @@ function compute() {
 
     // Check principal field has a value
     if(p.value == ""){
-        alert("Please enter an Amount");
+        alert("Please enter a positive Amount");
         p.focus();
         return false;
     }
