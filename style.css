@@ -35,6 +35,10 @@ input {
 output {
     font-size: 20px;
 }
+.result {
+    font-size: 20px;
+    background-color: yellow;
+}
 select {
     font-size: 16px;
 }

@@ -22,10 +22,10 @@ function compute() {
     i = p.value * r.value / 100 * y.value ;
 
     output_element = document.getElementById("calculation_output");
-    output_element.innerHTML = "If you deposit "+this.p.value+",<br>";
-    output_element.innerHTML = output_element.innerHTML + "at an interest rate of "+this.r.value+"%.<br>";
-    output_element.innerHTML = output_element.innerHTML + "You will receive an amount of "+this.i+",<br>";
-    output_element.innerHTML = output_element.innerHTML + "in the year "+this.return_year;
+    output_element.innerHTML = "If you deposit <span class='result'>"+this.p.value+"</span>,<br>";
+    output_element.innerHTML = output_element.innerHTML + "at an interest rate of <span class='result'>"+this.r.value+"%</span>.<br>";
+    output_element.innerHTML = output_element.innerHTML + "You will receive an amount of <span class='result'>"+this.i+"</span>,<br>";
+    output_element.innerHTML = output_element.innerHTML + "in the year <span class='result'>"+this.return_year+"</span>";
     return false;
 }
 
